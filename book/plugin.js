@@ -71,8 +71,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
       // ... by simply no-oping
       if (config.sticky &&                  // when configured to be sticky -AND-
           $activeTopSection.length === 0) { // the current active section has NO sub-content
-          return;
-        }
+        return;
       }
 
       // sync our left-nav to display ONLY the active top section
