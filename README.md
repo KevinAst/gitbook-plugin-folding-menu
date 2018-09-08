@@ -10,9 +10,11 @@ one section at a time** _(the active section)_.
 
 ## At a Glance
 
-- [Overview](#overview)
-- [Install](#install)
-- [Revision History](#revision-history)
+- [Overview]
+- [Install]
+- [Configuration]
+- [Revision History]
+  * [v1.0.1] - Added Configuration *(September 8, 2018)*
   * [v1.0.0] - Initial Release *(September 7, 2018)*
 
 
@@ -75,17 +77,44 @@ This project is a significant improvement on other similar plugins.
   npm install --save-dev gitbook-plugin-folding-menu
   ```
 
+
+## Configuration
+
+TODO: ?? document configuration
+
+
+
 ## Revision History
 
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
+[v1.0.1] | Added Configuration                             | *September 8, 2018*
 [v1.0.0] | Initial Release                                 | *September 7, 2018*
 
 
 
 <!-- *** RELEASE *************************************************************** -->
-[v1.0.0]: #v100---initial-release-september-7-2018
+
+### v1.0.1 - Added Configuration *(September 8, 2018)*
+
+<ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+[GitHub Content](https://github.com/KevinAst/gitbook-plugin-folding-menu/tree/v1.0.1)
+&bull;
+[GitHub Release](https://github.com/KevinAst/gitbook-plugin-folding-menu/releases/tag/v1.0.1)
+&bull;
+[Diff](https://github.com/KevinAst/gitbook-plugin-folding-menu/compare/v1.0.0...v1.0.1)
+
+**NOTE**: This release is a **non-breaking change** _(i.e. no API was affected)_.
+
+1. The **folding-menu** plugin is now configurable ... see: [Configuration].
+
+</ul></ul>
+
+
+
+<!-- *** RELEASE *************************************************************** -->
 
 ### v1.0.0 - Initial Release *(September 7, 2018)*
 
@@ -98,3 +127,14 @@ Release  | What                                            | *When*
 **This is where it all began ...**
 
 </ul></ul>
+
+
+
+
+<!--- *** REFERENCE LINKS *** ---> 
+[Overview]:          #overview
+[Install]:           #install
+[Configuration]:     #configuration
+[Revision History]:  #revision-history
+ [v1.0.1]:           #v101---added-configuration-september-8-2018
+ [v1.0.0]:           #v100---initial-release-september-7-2018
