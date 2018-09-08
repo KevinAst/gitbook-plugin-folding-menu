@@ -6,6 +6,22 @@
   "engines": {
     "gitbook": "*"
   },
+  "gitbook": {
+    "properties": {
+      "animationDuration": {
+        "type":        "number",
+        "default":     400,
+        "description": "The animation duration in mills ... use 0 (zero) to disable animation ... DEFAULT: 400",
+        "min":         0,
+        "max":         5000
+      },
+      "sticky": {
+        "type":        "boolean",
+        "default":     false,
+        "description": "Leave the last section expanded when a the current active section has NO sub-content ... DEFAULT: false"
+      }
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/KevinAst/gitbook-plugin-folding-menu.git"

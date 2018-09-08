@@ -50,38 +50,66 @@ This project is a significant improvement on other similar plugins.
 
 ## Install
 
-- Add the `"folding-menu"` plugin to your **book.json** file:
+1. Add the `"folding-menu"` plugin to your **book.json** file:
 
-  ```js
-  {
-    "plugins": [
-      ... other plugins you may be using
-      "folding-menu"
-    ]
-  }
-  ```
-
-- For https://legacy.gitbook.com/ usage, plugins are automatically installed.
-
-- For local gitbook usage run `gitbook install` to install and prepare
-  all plugins for your books:
-
-  ```shell
-  gitbook install
-  ```
-
-- For technical users _(ex: open source documentation)_, install the
-  plugin to your **devDependencies** as follows:
-
-  ```shell
-  npm install --save-dev gitbook-plugin-folding-menu
-  ```
+   **book.json**   
+   ```js
+   {
+     ...
+     "plugins": [
+       ... other plugins you may be using
+       "folding-menu"
+     ]
+     ...
+   }
+   ```
+   
+2. Install the plugin using **one** of the following options _(based on your gitbook usage)_:
+   
+   - For https://legacy.gitbook.com/ usage, plugins are automatically installed.
+   
+   - For local gitbook usage run `gitbook install` to install and prepare
+     all plugins for your books:
+   
+     ```shell
+     gitbook install
+     ```
+   
+   - For technical users _(ex: open source documentation)_, install the
+     plugin to your **devDependencies** as follows:
+   
+     ```shell
+     npm install --save-dev gitbook-plugin-folding-menu
+     ```
 
 
 ## Configuration
 
-TODO: ?? document configuration
+You may optionally supply the following configuration to this plugin:
 
+<ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+**book.json**   
+```js
+{
+  ...
+  "pluginsConfig": {
+    "folding-menu":	{
+      "animationDuration": 500,
+      "sticky":            true,
+    }
+  }
+  ...
+}
+```
+
+</ul>
+
+- **animationDuration** - The animation duration in mills ... use 0
+  (zero) to disable animation ... **DEFAULT: 400**
+
+- **sticky** - Leave the last section expanded when a the current
+  active section has NO sub-content ... **DEFAULT: false**
 
 
 ## Revision History
@@ -108,7 +136,7 @@ Release  | What                                            | *When*
 
 **NOTE**: This release is a **non-breaking change** _(i.e. no API was affected)_.
 
-1. The **folding-menu** plugin is now configurable ... see: [Configuration].
+- This plugin is now configurable _(see: [Configuration])_.
 
 </ul></ul>
 
