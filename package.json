@@ -1,10 +1,26 @@
 {
   "name": "gitbook-plugin-folding-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitBook plugin that tames large left-nav menus by visualizing one section at a time",
   "main": "index.js",
   "engines": {
     "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "animationDuration": {
+        "type":        "number",
+        "default":     400,
+        "description": "The animation duration in mills ... use 0 (zero) to disable animation ... DEFAULT: 400",
+        "min":         0,
+        "max":         5000
+      },
+      "sticky": {
+        "type":        "boolean",
+        "default":     false,
+        "description": "Leave the last section expanded when a the current active section has NO sub-content ... DEFAULT: false"
+      }
+    }
   },
   "repository": {
     "type": "git",
