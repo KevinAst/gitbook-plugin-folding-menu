@@ -1,0 +1,33 @@
+{
+  "name": "gitbook-plugin-folding-menu",
+  "version": "1.0.0",
+  "description": "GitBook plugin that tames large left-nav menus by visualizing one section at a time",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinAst/gitbook-plugin-folding-menu.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "menu",
+    "folding menu",
+    "collapsible menu",
+    "utility",
+    "util",
+    "utils",
+    "js",
+    "javascript",
+    "geeku",
+    "astx"
+  ],
+  "author": "Kevin J. Bridges <kevinast@gmail.com> (https://github.com/KevinAst)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinAst/gitbook-plugin-folding-menu/issues"
+  },
+  "homepage": "https://github.com/KevinAst/gitbook-plugin-folding-menu"
+}
