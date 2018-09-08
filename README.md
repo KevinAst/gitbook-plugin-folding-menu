@@ -7,6 +7,15 @@ one section at a time** _(the active section)_.
 
 [![NPM Version Badge](https://img.shields.io/npm/v/gitbook-plugin-folding-menu.svg)](https://www.npmjs.com/package/gitbook-plugin-folding-menu)
 
+
+## At a Glance
+
+- [Overview](#overview)
+- [Install](#install)
+- [Revision History](#revision-history)
+  * [v1.0.0] - Initial Release *(September 7, 2018)*
+
+
 ## Overview
 
 The high-level points of interest are:
@@ -65,3 +74,27 @@ This project is a significant improvement on other similar plugins.
   ```shell
   npm install --save-dev gitbook-plugin-folding-menu
   ```
+
+## Revision History
+
+
+Release  | What                                            | *When*
+---------|-------------------------------------------------|------------------
+[v1.0.0] | Initial Release                                 | *September 7, 2018*
+
+
+
+<!-- *** RELEASE *************************************************************** -->
+[v1.0.0]: #v100---initial-release-september-7-2018
+
+### v1.0.0 - Initial Release *(September 7, 2018)*
+
+<ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+[GitHub Content](https://github.com/KevinAst/gitbook-plugin-folding-menu/tree/v1.0.0)
+&bull;
+[GitHub Release](https://github.com/KevinAst/gitbook-plugin-folding-menu/releases/tag/v1.0.0)
+
+**This is where it all began ...**
+
+</ul></ul>
