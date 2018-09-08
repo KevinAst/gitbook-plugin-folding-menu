@@ -96,7 +96,7 @@ You may optionally supply the following configuration to this plugin:
   "pluginsConfig": {
     "folding-menu":	{
       "animationDuration": 500,
-      "sticky":            true,
+      "sticky":            true
     }
   }
   ...
