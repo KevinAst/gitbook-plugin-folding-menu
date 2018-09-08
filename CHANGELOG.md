@@ -12,9 +12,9 @@ and **contains migration instructions**.
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
-[v1.0.0] | Initial Release                                 | *September ??, 2018*
+[v1.0.0] | Initial Release                                 | *September 7, 2018*
 
-[v1.0.0]: #v100---initial-release-september-??-2018
+[v1.0.0]: #v100---initial-release-september-7-2018
 
 
 
@@ -51,7 +51,7 @@ UNRELEASED *********************************************************************
 
 <!-- *** RELEASE *************************************************************** -->
 
-## v1.0.0 - Initial Release *(September ??, 2018)*
+## v1.0.0 - Initial Release *(September 7, 2018)*
 [GitHub Content](https://github.com/KevinAst/gitbook-plugin-folding-menu/tree/v1.0.0)
 &bull;
 [GitHub Release](https://github.com/KevinAst/gitbook-plugin-folding-menu/releases/tag/v1.0.0)
